@@ -6,8 +6,8 @@
  # ---------------------------------------------------------------
  # `2**14` (= 16,384)
  MIN_GENESIS_ACTIVE_VALIDATOR_COUNT: 1
- # 2025-Dev-17 21:21:00 PM UTC
- MIN_GENESIS_TIME: 1765981184
+ # 2025-Dev-15 03:44:00 PM UTC
+ MIN_GENESIS_TIME: 1778518941
  GENESIS_FORK_VERSION: 0x10000038
  GENESIS_DELAY: 0
 
@@ -47,9 +47,9 @@
  # Time parameters
  # ---------------------------------------------------------------
  # 12 seconds
- SECONDS_PER_SLOT: 12
+ SECONDS_PER_SLOT: 3
  # 14 (estimate from Eth1 mainnet)
- SECONDS_PER_ETH1_BLOCK: 12
+ SECONDS_PER_ETH1_BLOCK: 3
  # 2**8 (= 256) epochs ~27 hours
  MIN_VALIDATOR_WITHDRAWABILITY_DELAY: 256
  # 2**8 (= 256) epochs ~27 hours
