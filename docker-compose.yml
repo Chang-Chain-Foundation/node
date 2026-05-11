@@ -64,7 +64,7 @@ services:
       --staking
       --supernode
       --boot-nodes=${CLNODES}
-      --checkpoint-sync-url=https://cl.cthscan.com
+      --allow-insecure-genesis-sync
     logging:
       driver: "json-file"
       options:
